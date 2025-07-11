@@ -37,7 +37,7 @@ public class scoreboard extends BukkitRunnable {
             board.getEntries().forEach(board::resetScores);
             List<String> lines;
 
-            if (run){
+            if (false){
                 lines = setting.getStringList("scoreboard.lines");
             }else {
                 lines = l;
