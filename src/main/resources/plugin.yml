@@ -1,0 +1,34 @@
+name: HideAndSeek
+version: '1.4'
+main: me.wang.hideAndSeek.HideAndSeek
+api-version: '1.19'
+authors: [ lao_wang ]
+description: 躲猫猫插件
+website: https://plugins.ngup.eu.org
+
+
+commands:
+  hideandsee:
+    description: 插件主指令
+    aliases:
+      - 'has'
+permissions:
+  has.cmd.main:
+    default: true
+    description: 插件指令权限
+  has.cmd.admin:
+    default: op
+    description: 插件指令权限
+  has.vip:
+    default: false
+    description: VIP权限
+  has.plus.block:
+    default: false
+    description: 选择更多方块权限
+  has.plus.name:
+    default: false
+    description: 自定义显示名称权限
+  has.plus.join:
+    default: false
+    description: 加入提醒权限
+

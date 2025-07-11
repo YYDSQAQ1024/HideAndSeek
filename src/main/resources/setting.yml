@@ -1,0 +1,43 @@
+#zh_cn,zh_tw,en_us
+#插件语言
+lang: 'zh_cn'
+
+wait:
+  #达到最小人数后等待的时间(秒)
+  less: 60
+  #达到最大人数后等待的时间(秒)
+  full: 10
+
+lobby: ''
+
+game:
+  #方块化所需时间(毫秒)
+  Blocking: 5000
+  #躲藏者死亡后是否复活为追捕者
+  ResurrectionAsSeeker: false
+  #是否给予躲藏者武器
+  GiveHiderArms: true
+
+
+scoreboard:
+  #计分板标题
+  title: "&b躲猫猫"
+  #计分板内容
+  #以$[WAITING]开头的内容将在等待倒计时开始后显示
+  #以$[PLAYING]开头的内容将在游戏开始后显示
+  #以$[WAITINGJOIN]开头的内容将在游戏仍处于等待中(未达到最小人数)时显示
+  #%map%地图名称
+  #%time%倒计时
+  #%seekers%剩余寻找者人数
+  #%hiders%剩余躲藏者人数
+  lines:
+    - '地图：%map%'
+    - '&r '
+    - '$[WAITING]将在 %time% 后开始'
+    - '$[PLAYING]将在 %time% 后结束'
+    - '$[WAITINGJOIN]等待中...'
+    - '$[PLAYING]&r  '
+    - '$[PLAYING]剩余寻找者：%seekers%'
+    - '$[PLAYING]剩余躲藏者：%hiders%'
+    - '&r   '
+    - 'example.com'

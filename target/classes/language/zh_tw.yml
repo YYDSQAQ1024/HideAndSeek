@@ -1,0 +1,76 @@
+command:
+  common:
+    Success: '&a成功！'
+    FileNotExist: '&4遊戲不存在！'
+    WorldNotExist: '&4遊戲不存在！'
+
+  active:
+    verify: '正在驗證您的啟動金鑰...'
+    success: '啟動成功！ 您已解鎖高級設定！請重啟伺服器。'
+    filed: '啟動失敗！'
+    console: '指令只能在遊戲中執行！'
+
+  join:
+    full: '&4該遊戲已經滿人了！'
+    disable: '&4該遊戲尚未開放！'
+    playing: '&e遊戲正在進行中！您將以旁觀者模式加入遊戲'
+
+  edit:
+    NotExist: '&4房間不存在！請先創建。'
+
+  create:
+    exist: '&4遊戲已經添加過了！'
+
+join:
+  msg: '{0} &e加入了遊戲'
+
+wait:
+  start: '&a遊戲開始'
+  seeker: '&4尋找者已經出動！'
+
+end:
+  hider: '&7躲藏者'
+  seeker: '&7尋找者'
+  end: '&4遊戲結束！'
+  winner: |-
+    &e+============================+
+    &e
+            本局勝利者：{0}
+    &e
+    &e+============================+
+    &e
+  close: '&4本場遊戲將在15秒後關閉！'
+
+attack:
+  msg: '&e您發現了一個偽裝的方塊！'
+
+inventory:
+  title: '&a設定房間：{0}'
+  anvil:
+    total: '設定房間總人數'
+    see: '設定尋找者人數'
+    hide: '設定躲藏者最少人數'
+    time: '設定遊戲時間（分鐘）'
+    tc: '設定尋找者開始時間延遲（秒）'
+    input: '請在此輸入內容（先將我刪除）'
+
+  inv:
+    total: '&a設定遊戲最大人數 [&7{0}&a]'
+    see: '&a設定尋找者人數 [&7{0}&a]'
+    hide: '&a設定躲藏者最少人數 [&7{0}&a]'
+    time: '&a設定遊戲時間（分鐘） [&7{0}&a]'
+    tc: '&a設定尋找者開始時間延遲（秒） [&7{0}&a]'
+    enable: '&b點擊啟用/停用地圖 [&7{0}&b]'
+
+leave:
+  quit: '{0} &e離開了遊戲'
+  die: '&4您已經死亡！'
+  ResurrectionAsSeeker: '&6你變成了尋找者。'
+
+common:
+  BreakBlock: '&4您不能破壞地圖！'
+
+block:
+  exist: '&4您不能躲在這裡，這裡已經有方塊了！'
+  TurnIntoBlock: '&e您現在看起來像個方塊！'
+  restore: '&e您現在不是方塊了！'

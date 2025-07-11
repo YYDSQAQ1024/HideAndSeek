@@ -1,0 +1,76 @@
+command:
+  common:
+    Success: '&aSuccess!'
+    FileNotExist: '&4Game does not exist!'
+    WorldNotExist: '&4Game does not exist!'
+
+  active:
+    verify: 'Verifying your activation key...'
+    success: 'Activation successful! You have unlocked advanced settings!Please reboot the server.'
+    filed: 'Activation failed!'
+    console: 'This command can only be executed in the game!'
+
+  join:
+    full: '&4The game is full!'
+    disable: '&4This game is not currently open!'
+    playing: '&eThe game is in progress! You will join as a spectator.'
+
+  edit:
+    NotExist: '&4Room does not exist! Please create one first.'
+
+  create:
+    exist: '&4The game has already been added!'
+
+join:
+  msg: '{0} &ejoined the game'
+
+wait:
+  start: '&aThe game has started'
+  seeker: '&4Seekers have been released!'
+
+end:
+  hider: '&7Hiders'
+  seeker: '&7Seekers'
+  end: '&4The game has ended!'
+  winner: |-
+    &e+============================+
+    &e
+            Winner of this round: {0}
+    &e
+    &e+============================+
+    &e
+  close: '&4This game will close in 15 seconds!'
+
+attack:
+  msg: '&eYou found a disguised block!'
+
+inventory:
+  title: '&aRoom settings: {0}'
+  anvil:
+    total: 'Set total number of players in the room'
+    see: 'Set the number of seekers'
+    hide: 'Set the minimum number of hiders'
+    time: 'Set game duration (minutes)'
+    tc: 'Set seeker start delay (seconds)'
+    input: 'Enter content here (please delete this text first)'
+
+  inv:
+    total: '&aSet the maximum number of players in the game [&7{0}&a]'
+    see: '&aSet the number of seekers [&7{0}&a]'
+    hide: '&aSet the minimum number of hiders [&7{0}&a]'
+    time: '&aSet game duration (minutes) [&7{0}&a]'
+    tc: '&aSet seeker start delay (seconds) [&7{0}&a]'
+    enable: '&bClick to Enable/Disable the map [&7{0}&b]'
+
+leave:
+  quit: '{0} &eleft the game'
+  die: '&4You are dead!'
+  ResurrectionAsSeeker: '&6You become a seeker.'
+
+common:
+  BreakBlock: '&4You cannot break the map!'
+
+block:
+  exist: '&4You cannot hide here, there is already a block!'
+  TurnIntoBlock: '&eYou now look like a block!'
+  restore: '&eYou are no longer a block!'
